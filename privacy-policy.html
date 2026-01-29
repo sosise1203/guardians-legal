@@ -96,24 +96,16 @@
             color: #555;
         }
 
-        .placeholder {
-            background: #f5f5f5;
-            border: 2px dashed #999;
-            border-radius: 4px;
-            padding: 8px 12px;
-            margin: 8px 0;
-            font-family: monospace;
-            color: #666;
-        }
-
-        .placeholder::before {
-            content: '⚠️ 要入力: ';
-            font-weight: bold;
-        }
-
         .admob-notice {
             background: #f9f9f9;
             border-left: 3px solid #000;
+            padding: 12px 16px;
+            margin: 12px 0;
+        }
+
+        .gdpr-notice {
+            background: #f0f7ff;
+            border-left: 3px solid #0066cc;
             padding: 12px 16px;
             margin: 12px 0;
         }
@@ -144,7 +136,7 @@
         <header>
             <h1>プライバシーポリシー</h1>
             <p class="app-name">GUARDIANS - 守護者決戦</p>
-            <p class="last-updated">最終更新日: 2026年1月26日</p>
+            <p class="last-updated">最終更新日: 2026年1月29日</p>
         </header>
 
         <section>
@@ -152,6 +144,10 @@
             <p>
                 本プライバシーポリシーは、「GUARDIANS - 守護者決戦」（以下「本アプリ」）における情報の取り扱いについて説明するものです。
                 本アプリの提供にあたり、お客様のプライバシーを尊重し、個人情報の保護に努めております。
+            </p>
+            <p>
+                本アプリは日本国内および海外（欧州連合（EU）を含む）で提供されており、
+                EU一般データ保護規則（GDPR）およびその他の適用されるプライバシー法を遵守しています。
             </p>
         </section>
 
@@ -198,6 +194,19 @@
         </section>
 
         <section>
+            <h2>データ処理の法的根拠</h2>
+            <div class="gdpr-notice">
+                <strong>EU/EEAにお住まいの方へ：</strong>GDPRに基づき、データ処理の法的根拠を以下に示します。
+            </div>
+            <p>本アプリにおけるデータ処理は、以下の法的根拠に基づいて行われます：</p>
+            <ul>
+                <li><strong>同意：</strong>広告のパーソナライズおよびトラッキングについては、お客様の明示的な同意に基づいて処理します。</li>
+                <li><strong>契約の履行：</strong>Game Centerを使用したオンライン対戦機能の提供、およびApp内課金の処理は、サービス提供契約の履行のために必要です。</li>
+                <li><strong>正当な利益：</strong>アプリの改善、不具合の修正、セキュリティの確保は、当方の正当な利益に基づいて行われます。</li>
+            </ul>
+        </section>
+
+        <section>
             <h2>広告について</h2>
             <div class="admob-notice">
                 <strong>Google AdMob</strong>を使用して広告を配信しています。
@@ -222,6 +231,10 @@
                 パーソナライズド広告を無効にしたい場合は、iOSの設定から「トラッキング」を無効にすることができます。
             </p>
             <p><strong>設定方法：</strong>設定 → プライバシーとセキュリティ → トラッキング</p>
+            <p>
+                EU/EEA地域のお客様には、アプリ初回起動時に同意画面が表示されます。
+                同意しない場合、パーソナライズされていない広告が表示されます。
+            </p>
 
             <h3>Googleのプライバシーポリシー</h3>
             <p>
@@ -273,21 +286,63 @@
         </section>
 
         <section>
+            <h2>データの保持期間</h2>
+            <p>本アプリにおけるデータの保持期間は以下のとおりです：</p>
+            <ul>
+                <li><strong>デバイス上のゲームデータ：</strong>アプリを削除するまで保持されます。</li>
+                <li><strong>広告関連データ（AdMob）：</strong>Googleのポリシーに従い、通常180日から2年間保持されます。詳細は<a href="https://policies.google.com/technologies/retention" target="_blank" rel="noopener noreferrer">Googleのデータ保持ポリシー</a>をご確認ください。</li>
+                <li><strong>Game Centerデータ：</strong>Appleのポリシーに従って管理されます。</li>
+            </ul>
+        </section>
+
+        <section>
             <h2>お子様のプライバシー</h2>
             <p>
                 本アプリは、特にお子様のプライバシーを保護することを重視しています。
                 13歳未満のお子様から意図的に個人情報を収集することはありません。
+            </p>
+            <p>
+                13歳未満のお子様が本アプリを利用する場合は、保護者の監督のもとで利用されることを推奨します。
             </p>
         </section>
 
         <section>
             <h2>お客様の権利</h2>
             <p>お客様には以下の権利があります：</p>
+
+            <h3>すべてのお客様</h3>
             <ul>
-                <li>広告トラッキングの無効化（iOS設定から可能）</li>
-                <li>広告識別子のリセット</li>
-                <li>アプリの削除によるローカルデータの消去</li>
+                <li><strong>広告トラッキングの無効化：</strong>iOS設定 → プライバシーとセキュリティ → トラッキングから設定できます。</li>
+                <li><strong>広告識別子のリセット：</strong>iOS設定から広告識別子をリセットできます。</li>
+                <li><strong>ローカルデータの削除：</strong>アプリを削除することで、デバイス上のすべてのゲームデータを消去できます。</li>
             </ul>
+
+            <h3>EU/EEA地域のお客様（GDPR）</h3>
+            <div class="gdpr-notice">
+                GDPRに基づき、以下の追加の権利が保障されています。
+            </div>
+            <ul>
+                <li><strong>アクセス権：</strong>お客様に関して処理されているデータへのアクセスを求める権利があります。</li>
+                <li><strong>訂正権：</strong>不正確なデータの訂正を求める権利があります。</li>
+                <li><strong>削除権（忘れられる権利）：</strong>特定の状況において、お客様のデータの削除を求める権利があります。</li>
+                <li><strong>処理制限権：</strong>特定の状況において、データ処理の制限を求める権利があります。</li>
+                <li><strong>データポータビリティ権：</strong>お客様のデータを構造化された一般的な形式で受け取る権利があります。</li>
+                <li><strong>異議申立権：</strong>正当な利益に基づく処理に対して異議を申し立てる権利があります。</li>
+                <li><strong>同意撤回権：</strong>同意に基づく処理について、いつでも同意を撤回する権利があります。アプリ内のプライバシー設定または下記のお問い合わせフォームから撤回できます。</li>
+                <li><strong>監督機関への苦情申立権：</strong>データ保護に関する苦情をお住まいの国のデータ保護監督機関に申し立てる権利があります。</li>
+            </ul>
+            <p>
+                これらの権利を行使される場合は、下記のお問い合わせフォームからご連絡ください。
+                ご本人確認のうえ、1ヶ月以内に対応いたします。
+            </p>
+        </section>
+
+        <section>
+            <h2>国際データ移転</h2>
+            <p>
+                本アプリで収集されたデータは、広告配信のためにGoogle（米国）に転送される場合があります。
+                Googleは、EU-US Data Privacy Frameworkに参加しており、適切なデータ保護措置を講じています。
+            </p>
         </section>
 
         <section>
@@ -295,23 +350,29 @@
             <p>
                 必要に応じて本プライバシーポリシーを変更することがあります。
                 重要な変更がある場合は、アプリ内または本ページにて通知いたします。
+                変更後も本アプリを継続して利用される場合、変更後のプライバシーポリシーに同意したものとみなされます。
             </p>
         </section>
 
         <section>
             <h2>お問い合わせ</h2>
             <p>
-                本プライバシーポリシーに関するご質問やお問い合わせは、以下のフォームからお願いいたします：
+                本プライバシーポリシーに関するご質問、データ保護に関する権利の行使、
+                またはその他のお問い合わせは、以下のフォームからお願いいたします：
             </p>
             <p>
                 <a href="https://forms.gle/VYMXPt7LvxCmRF316" target="_blank" rel="noopener noreferrer">
                     お問い合わせフォーム
                 </a>
             </p>
+            <p>
+                通常、お問い合わせには5営業日以内に回答いたします。
+                GDPRに基づくリクエストについては、1ヶ月以内に対応いたします。
+            </p>
         </section>
 
         <footer>
-            <p>© 2026 ShinYokoyama. All Rights Reserved.</p>
+            <p>&copy; 2026 ShinYokoyama. All Rights Reserved.</p>
             <p style="margin-top: 8px;">GUARDIANS - 守護者決戦</p>
         </footer>
     </div>
